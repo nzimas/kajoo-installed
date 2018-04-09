@@ -11,7 +11,7 @@
  * See COPYRIGHT.php for copyright notices and details.
  */
  
-// No direct access
+// No direct accessyujyuj
 defined('_JEXEC') or die;
 
 jimport('joomla.application.component.controller');
