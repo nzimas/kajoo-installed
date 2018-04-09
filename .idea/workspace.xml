@@ -9,6 +9,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="501" column="26" lean-forward="true" selection-start-line="501" selection-start-column="26" selection-end-line="501" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="SCHEME" value="Project" />
   </component>
@@ -19,6 +32,9 @@
       <find>getElementById</find>
       <find>widget</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,7 +99,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,15 +124,16 @@
       <option name="presentableId" value="Default" />
       <updated>1523221275080</updated>
       <workItem from="1523221276260" duration="12899000" />
-      <workItem from="1523287611385" duration="681000" />
+      <workItem from="1523287611385" duration="2253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13580000" />
+    <option name="totallyTimeSpent" value="15152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1874" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973261" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -125,7 +142,7 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -194,5 +211,12 @@
     <entry file="file://$PROJECT_DIR$/administrator/components/com_kajoo/views/content/view.html.php" />
     <entry file="file://$PROJECT_DIR$/administrator/components/com_kajoo/views/contents/tmpl/default.php" />
     <entry file="file://$PROJECT_DIR$/administrator/components/com_kajoo/views/content/tmpl/edit.php" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="501" column="26" lean-forward="true" selection-start-line="501" selection-start-column="26" selection-end-line="501" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
