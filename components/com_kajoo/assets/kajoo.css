@@ -1,0 +1,160 @@
+div.entryTitle{
+	font-weight: bold;
+}
+div.entryTitle h3{
+	margin: 5px;
+	margin-left: 0px;
+	display: block;
+	clear: both;
+	line-height: 130%;
+}
+div.entryId{
+	color: #777;
+	font-size: 90%;
+	margin-bottom: 10px;
+}
+span.entryFieldName{
+	font-weight: bold;
+}
+span.entryFieldPartner{
+	color: #555;
+}
+div.fieldsWell{
+	margin-bottom: 0px;
+	font-size: 85%;
+	background: #f4f4f4;
+	padding: 10px;
+}
+div.fieldsWell ul,
+div.fieldsWell ul li{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+div.iconsKajoo a{
+float: left;
+margin-right: 6px;
+}
+div.itemKajooMainContent{
+	margin-bottom: 15px;
+}
+div.itemKajooMainContent:hover{
+	background: #f9fcff;
+}
+ul#navigationCategories a{
+	padding: 2px;
+	padding-left: 5px;
+}
+div.infoDetail_description{
+	font-size: 90%;
+	text-shadow: 1px 1px 1px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+}
+li.kajoowit span.titwishlikid{
+	color: #888;
+	font-size: 90%;
+	font-style: italic;
+	margin-left: 3px;
+}
+ul#wishlist{
+	margin-left: 0px;
+	text-shadow: 1px 1px 1px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+}
+ul#wishlist li{
+	display: block;
+	margin-left: 0px;
+	margin-bottom: 3px;
+}
+a.delwlit{
+	float: left;
+	margin-right: 5px;
+}
+ul.itemListDetails{
+	list-style: none;
+	font-size: 90%;
+	word-wrap:break-word;
+}
+ul.itemListDetails span.tit_itemList{
+	width: 100px;
+	display: inline-table;
+	text-align: right;
+	padding-right: 5px;
+	color: #888;
+}
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url(../images/valid.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+label.error {
+	font-weight: bold;
+	color: red;
+	padding: 2px 8px;
+	margin-top: 2px;
+}
+ul.gallerythumbsFront{
+	list-style: none;
+	margin-bottom: 15px;
+	display: block;
+}
+ul.gallerythumbsFront li{
+	display: block;
+	float: left;
+	width: 90px;
+	height: 50px;
+	overflow: hidden;
+	list-style: none;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+ul.gallerythumbsFront li img{
+	width: 90px;
+	
+}
+div.colsKajoo .kajooInput{
+	width: 93% !important;
+
+}
+div.colsKajoo legend{
+	background: transparent;
+	font-size: 140%;
+	font-weight: normal;
+	padding: 0px;
+}
+div.colsKajoo select.kajooInput{
+	height: 30px;
+}
+select#limitKajoo{
+	width: 90px !important;
+}
+div.mainCentKajoo{
+	padding: 7px;
+	padding-top: 0px;
+}
+div.mainCentKajoo .entryDesc{
+	font-size: 90%;
+	line-height: 145%;
+	color: #666;
+}
+div.showingPaginationtext{
+	font-style: italic;
+	color: #888;
+	margin-bottom: 10px;
+}
+div.kajooMainContent .pagination{
+	clear: both !important;
+	height: auto;
+	display: block !important;
+	
+}
+div.infoDetail_video{
+	text-align: center;
+}
+div#loadingKajoo{
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(images/ajax-loader.gif);
+}

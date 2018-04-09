@@ -1,0 +1,280 @@
+.icon-48-partners {
+      background-image: url(../images/l_partners.png);
+      padding-left:60px!important;
+}
+
+.icon-48-partner {
+      background-image: url(../images/l_partners.png);
+      padding-left:60px!important;
+}
+
+.icon-48-notes {
+      background-image: url(../images/l_notes.png);
+      padding-left:60px!important;
+}
+
+.icon-48-note {
+      background-image: url(../images/l_notes.png);
+      padding-left:60px!important;
+}
+
+.icon-48-contents {
+      background-image: url(../images/l_contents.png);
+      padding-left:60px!important;
+}
+
+.icon-48-content {
+      background-image: url(../images/l_contents.png);
+      padding-left:60px!important;
+}
+
+.icon-48-fields {
+      background-image: url(../images/l_fields.png);
+      padding-left:60px!important;
+}
+
+.icon-48-field {
+      background-image: url(../images/l_fields.png);
+      padding-left:60px!important;
+}
+
+ul.adminformlist{
+	list-style: none;
+}
+ul.adminformlist li label{
+
+}
+ul.adminformlist li span.star{
+	color: red;
+}
+div#field_values li.ui-draggable{
+	margin-bottom: 0px;
+	padding: 0px;
+}
+div.select_values_container{
+	margin-bottom: 10px;
+}
+div#field_values ul#sortable{
+	list-style: none;
+	margin-left: 0px;
+}
+div#field_values ul#sortable li{
+	padding: 6px;
+	cursor: move;
+}
+#select_list_values_container{
+	display: none;
+}
+div#field_values button.delete{
+	float: right;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+table td.tdtablecon{
+	width: 10%;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 15px;
+}
+div#kajooEmbed{
+	min-height: 400px;
+}
+div#ajaxLoader{
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+div#ajaxLoader div#spin{
+	background: url(../images/ajax-loader.gif) no-repeat transparent;
+	width: 16px;
+	height: 16px;
+	display: none;
+	
+}
+span.spin1{
+	background: url(../images/ajax-loader.gif) no-repeat transparent;
+	width: 16px;
+	height: 16px;
+	display: block;	
+}
+div.modalflavor{
+	display: none;
+}
+ul.flavorsinfo{
+	list-style: none;
+}
+ul.flavorsinfo li span{
+	font-weight: bold;
+	width: 100px;
+	padding-right: 10px;
+	text-align: right;
+	display: inline-table;
+}
+ul.flavorsinfo li{
+	margin-bottom: 6px;
+}
+div.modalflavor {
+    margin-top: 0;
+}
+img.defaultThumb{
+	
+}
+ .column { width: 150px; min-height: 200px; float: left; padding-bottom: 30px;
+ background: #f4f4f4;
+ border: 1px dotted #f1f1f1;
+ margin-right: 8px;
+ background: url(../images/columnbg.png) no-repeat center top #f3f3f3;
+ 
+  }
+    .portlet { margin-bottom: 10px; }
+    .portlet-header { margin: 0.3em; padding-bottom: 4px; padding-left: 0.2em; }
+    .portlet-header .ui-icon { float: right; }
+    .portlet-content { padding: 0.4em; }
+    .ui-sortable-placeholder { border: 1px dotted #888; visibility: visible !important; height: 70px !important; }
+    .ui-sortable-placeholder * {  }
+.portlet-header{
+	cursor:move;
+}
+.column2 .portlet-header{
+	cursor:auto;
+}
+  .column2 { width: 170px; float: left; padding-bottom: 100px; }
+   .column2.main{
+	 width: 310px;
+	 background: #f4f4f4;
+ }
+ 
+ul.imageThumbSinglecont{
+
+}
+div.controlsConfig{
+	display: block;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+div.thumbnailsCollection{
+	margin-top: 15px;
+}
+
+    .gallerythumbs.custom-state-active { background: #eee; }
+    .gallerythumbs li { float: left; width: 100px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+    .gallerythumbs li a { float: right; }
+    .gallerythumbs li a.ui-icon-star { float: left; }
+    .gallerythumbs li img { width: 100%;  }
+
+ span.content_name{
+	 font-weight: bold;
+ }  
+ div.content_description{
+	 color: #666;
+	 font-style: italic;
+	 font-size: 90%;
+ }
+ #modalFields{
+	 display: none;
+ }
+ li.maincategory{
+	 font-weight: bold;
+ }
+
+#container {
+    width: 200px;
+    height: 40px;
+    position: relative;
+}
+
+#navi, 
+#infoi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#infoi {
+    z-index: 10;
+}
+.containeruploadPerc{
+    margin-top: 30px;
+    display: none;
+    width: 400px;
+}
+tr.rowClient:hover{
+	cursor: pointer;
+	background: #f4f4f4 !important;
+}	
+table#tableClients tr.activeRow,
+table#tableClients tr.activeRow td{
+	background: #ccc !important;
+}
+div#clientDataWrapper{
+	display: none;
+}
+span.iconState{
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+
+}
+span.iconState.sold,
+span.legSold.sold{
+	background: url(../images/072.png) no-repeat;
+}
+span.iconState.pending,
+span.legSold.pending{
+	background: url(../images/076.png) no-repeat;
+}
+span.iconState.notsold,
+span.legSold.notsold{
+	background: url(../images/071.png) no-repeat;
+}
+span.legSold{
+	display: inline-table;
+		width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+ul.tableLEgendSold{
+	font-size: 90%;
+	color: #888;
+	font-style: italic;
+	list-style: none;
+}
+div#tableContents_length select{
+	width: 100px !important;
+}
+tr.currentPlayer{
+	font-weight: bold;
+	color: green;
+}
+div#clientAddEdit{
+	display: none;
+}
+div.selectExportPartner{
+	float: left;
+	margin-right: 10px;
+}
+a.addField,
+a.addPartner{
+	float: right;
+}
+table#contentTable tr.row_selected{
+	background: #d5d5d5;
+}
+table#contentTable tr:hover{
+	cursor: pointer;
+	background: #d5d5d5;
+	
+}
+table#tableSelected tr:hover{
+	cursor: pointer;
+	background: #ebebeb;
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_kajoo</name>
+    <creationDate>2018-04</creationDate>
+    <copyright>Copyright (C) 2012-2018. All rights reserved.</copyright>
+    <license>GNU GPL v3 or later</license>
+    <author>Miguel Puig, Nuno Zimas</author>
+    <authorEmail>nzimas@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>2.0.1</version>
+    <description><![CDATA[<div style="text-align:left;"><img src="components/com_kajoo/assets/images/mainlogo.png">
+<p><strong>Kajoo</strong> offers flexible interfaces to handle media assets stored on a Kaltura powered streaming server.</p>
+<p>Its primary focus lies in the content distribution industry. As such, it largely extends Kaltura's metadata tools in order to address very specific needs professionals in this industry are faced with. The whole sales cycle is covered, from gathering information about existing or prospected customers to rights management.</p>
+<p>It can also generate professional looking catalogues to deliver in exhibitions. The frontend view can be structured as intended and still keep a sleek, straightforward look and feel. Furthermore, it loads equally well on all major rendering engines and devices.</p>
+<p><strong>Specifications</strong></p>
+<ul style="font-weight:normal; color:#888; margin-bottom:20px;">
+  <li>Seamless functional and visual integration between Joomla and Kaltura</li>
+  <li>Custom fields and field types to create filters</li>
+  <li>Rights management and sales workflow</li>
+  <li>Configurable options at all levels of administration (get as much or as little as you want)</li>
+  <li>Multiple Kaltura publishers (partners)</li>
+  <li>Multiple Kaltura instances on different locations</li>
+  <li>Flexible frontend layouts</li>
+  <li>Code efficiency by leveraging the Joomla framework API and in strict compliance with the MVC pattern</li>
+  <li>Optimised for Joomla 3.0 and above</li>
+  <li>Compatible with Kaltura  Community Edition and Kaltura SaaS Edition</li>
+</ul></div>]]></description>
+    
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>kajoo.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>assets</folder>
+    </files>
+    <languages folder="site">
+        <language tag="en-GB">language/en-GB/en-GB.com_kajoo.ini</language>
+    </languages>
+    <administration>
+        <menu img="components/com_kajoo/assets/images/s_com_kajoo.png" >COM_KAJOO</menu>
+        <submenu>
+            
+			<menu link="option=com_kajoo&amp;view=partners" view="partners" 
+img="components/com_kajoo/assets/images/s_partners.png" alt="Kajoo/Partners">COM_KAJOO_PARTNERS</menu>
+
+			<menu link="option=com_kajoo&amp;view=notes" view="clients" img="components/com_kajoo/assets/images/s_notes.png" alt="Kajoo/Clients">COM_KAJOO_CLIENTS</menu>
+
+			<menu link="option=com_kajoo&amp;view=contents" view="contents" img="components/com_kajoo/assets/images/s_contents.png" alt="Kajoo/Contents">COM_KAJOO_CONTENTS</menu>
+
+			<menu link="option=com_kajoo&amp;view=fields" view="fields" img="components/com_kajoo/assets/images/s_fields.png" alt="Kajoo/Fields">COM_KAJOO_FIELDS</menu>
+			
+			<menu link="option=com_kajoo&amp;view=configuration" view="configuration" img="components/com_kajoo/assets/images/s_fields.png" alt="Kajoo/Fields">COM_KAJOO_CONFIG</menu>
+			
+			<menu link="option=com_kajoo&amp;view=upload" view="upload" img="components/com_kajoo/assets/images/s_fields.png" alt="Kajoo/Upload">COM_KAJOO_UPLOAD</menu>
+			
+			<!--<menu link="option=com_kajoo&amp;view=reports" view="reports" 
+img="components/com_kajoo/assets/images/s_fields.png" alt="Kajoo/Reports">COM_KAJOO_TITLE_REPORTS</menu>
+			
+			<menu link="option=com_kajoo&amp;view=validation" view="validation" 
+img="components/com_kajoo/assets/images/s_fields.png" alt="Kajoo/Validation">COM_KAJOO_TITLE_VALIDATE</menu> -->
+
+        </submenu>
+        <files folder="admin">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>kajoo.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_kajoo.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_kajoo.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

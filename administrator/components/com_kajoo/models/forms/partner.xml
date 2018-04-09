@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_KAJOO_FORM_LBL_PARTNER_ID"
+                    readonly="true" class="readonly"
+                    description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="added" type="timecreated" default="" 
+            label="COM_KAJOO_FORM_LBL_PARTNER_ADDED"
+            description="COM_KAJOO_FORM_DESC_PARTNER_ADDED"  /> 
+
+       <field name="updated" type="timeupdated" default="" 
+            label="COM_KAJOO_FORM_LBL_PARTNER_UPDATED"
+            description="COM_KAJOO_FORM_DESC_PARTNER_UPDATED"  /> 
+
+       <field name="name" type="text"
+                        
+            label="COM_KAJOO_FORM_LBL_PARTNER_NAME"
+            description="COM_KAJOO_FORM_DESC_PARTNER_NAME" 
+                        
+                        
+                         required="true" 
+            filter="raw"
+            size="70" /> 
+
+       <field name="partnerid" type="text"
+                        
+            label="COM_KAJOO_FORM_LBL_PARTNER_PARTNERID"
+            description="COM_KAJOO_FORM_DESC_PARTNER_PARTNERID" 
+                        
+                        
+                         required="true" 
+            filter="raw"
+            size="50" /> 
+
+       <field name="administratorsecret" type="text"
+                        
+            label="COM_KAJOO_FORM_LBL_PARTNER_ADMINISTRATORSECRET"
+            description="COM_KAJOO_FORM_DESC_PARTNER_ADMINISTRATORSECRET" 
+                        
+                        
+                         required="true" 
+            filter="raw"
+            size="150" /> 
+
+       <field name="usersecret" type="text"
+                        
+            label="COM_KAJOO_FORM_LBL_PARTNER_USERSECRET"
+            description="COM_KAJOO_FORM_DESC_PARTNER_USERSECRET" 
+                        
+                        
+                         required="true" 
+            filter="raw"
+            size="150" /> 
+       <field name="url" type="text"
+                        
+            label="URL"
+            description="URL example http://kaltura.org" 
+                        
+                        
+                         required="false" 
+            filter="raw"
+            size="80" /> 
+            
+            
+         <field name="defaultPlayer" type="text"        
+            label="Default player"
+            description="Go to KMC->Studio->players and select the ID of the player" 
+                        
+                        
+                         required="false" 
+            filter="raw"
+            size="80" /> 
+
+         <field
+                name="state"
+                type="list"
+                label="JSTATUS"
+                description="JFIELD_PUBLISHED_DESC"
+                class="inputbox"
+                size="1"
+                default="1">
+                <option value="1">JPUBLISHED</option>
+                <option value="0">JUNPUBLISHED</option>
+            </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+                <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

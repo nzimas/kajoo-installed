@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_KAJOO_FORM_LBL_FIELD_ID"
+                    readonly="true" class="readonly"
+                    description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_KAJOO_FORM_LBL_FIELD_CREATED_BY"
+            description="COM_KAJOO_FORM_DESC_FIELD_CREATED_BY"  /> 
+
+       <field name="type" type="list"
+                        
+            label="COM_KAJOO_FORM_LBL_FIELD_TYPE"
+            description="COM_KAJOO_FORM_DESC_FIELD_TYPE" 
+                        
+                        
+                         required="true" 
+            filter="raw">
+                <option value="1">Select List</option>
+                <option value="2">Text field</option>
+        </field> 
+
+ 
+		<field name="filter_type" type="list" onchange="this.form.submit();">
+			<option value="">COM_KAJOO_FIELDS_TYPE_FILTER</option>
+			<option value="1">Select List</option>
+			<option value="2">Text field</option>
+		</field> 
+
+       <field name="name" type="text"
+                        
+            label="COM_KAJOO_FORM_LBL_FIELD_NAME"
+            description="COM_KAJOO_FORM_DESC_FIELD_NAME" 
+                        
+                        
+                         required="true" 
+            filter="raw" /> 
+
+       <field name="alias" type="text" size="40" class="inputbox"
+                
+            label="COM_KAJOO_FORM_LBL_FIELD_ALIAS"
+            description="COM_KAJOO_FORM_DESC_FIELD_ALIAS" 
+                
+                
+                 required="true" 
+                filter="safehtml" /> 
+
+       <field name="filtrable" type="list"
+                        
+            label="COM_KAJOO_FORM_LBL_FIELD_FILTRABLE"
+            description="COM_KAJOO_FORM_DESC_FIELD_FILTRABLE" 
+                        
+                        
+                        
+            default="1"
+            filter="raw"
+            multiple="false">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+        </field> 
+
+ 
+		<field name="filter_filtrable" type="list" onchange="this.form.submit();">
+			<option value="">COM_KAJOO_FIELDS_FILTRABLE_FILTER</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field> 
+
+       <field name="sitevisible" type="list"
+                        
+            label="COM_KAJOO_FORM_LBL_FIELD_SITEVISIBLE"
+            description="COM_KAJOO_FORM_DESC_FIELD_SITEVISIBLE" 
+                        
+                        
+                        
+            default="1"
+            filter="raw"
+            multiple="false">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+        </field> 
+
+ 
+		<field name="filter_sitevisible" type="list" onchange="this.form.submit();">
+			<option value="">COM_KAJOO_FIELDS_SITEVISIBLE_FILTER</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field> 
+
+       <field name="adminvisible" type="list"
+                        
+            label="COM_KAJOO_FORM_LBL_FIELD_ADMINVISIBLE"
+            description="COM_KAJOO_FORM_DESC_FIELD_ADMINVISIBLE" 
+                        
+                        
+                        
+            default="1"
+            filter="raw"
+            multiple="false">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+        </field> 
+
+ 
+		<field name="filter_adminvisible" type="list" onchange="this.form.submit();">
+			<option value="">COM_KAJOO_FIELDS_ADMINVISIBLE_FILTER</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field> 
+
+         <field
+                name="state"
+                type="list"
+                label="JSTATUS"
+                description="JFIELD_PUBLISHED_DESC"
+                class="inputbox"
+                size="1"
+                default="1">
+                <option value="1">JPUBLISHED</option>
+                <option value="0">JUNPUBLISHED</option>
+            </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+                <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>
