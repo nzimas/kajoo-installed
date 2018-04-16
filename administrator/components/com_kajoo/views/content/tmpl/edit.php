@@ -392,13 +392,14 @@ else:
 	$urlKaltura = $PartnerInfo->url;
 	$urlKalturaCDN = $PartnerInfo->url;
 endif;
-	
+    $cdnApiURL = $urlKaltura.'/p/'.$PartnerInfo->partnerid.'/sp/'.$PartnerInfo->partnerid.'00/embedIframeJs/uiconf_id/'.$uiConf->objects[0]->id.'/partner_id/'.$PartnerInfo->partnerid;
 ?>
 
 
 
     <div id="thumbVideo<?php echo $this->item->entry_id;?>" style="width:640px;height:320px;"></div>
-    <script type="text/javascript" src="http://html5.kaltura.org/js"></script>
+    <!--<script type="text/javascript" src="http://html5.kaltura.org/js"></script>-->
+                <script type="text/javascript" src="<?php echo $cdnApiURL;?>"></script>
 	<script>
     	mw.setConfig( 'forceMobileHTML5', false );
     		
@@ -415,7 +416,7 @@ endif;
 	    'host' : '<?php echo $PartnerInfo->url;?>',
 	    'flashvars':{
                         'allowscriptaccess' : 'always',
-                        'autoPlay' : false
+                        'autoPlay' : true
         },
 	    'readyCallback': function( playerId ){
 				//console.log( "kWidget player ready: " + playerId );

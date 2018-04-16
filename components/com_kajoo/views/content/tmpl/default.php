@@ -54,7 +54,6 @@ catch(Exception $ex)
 
 	<div class="infoDetail_video">
 
-		
 		<?php echo KajooHelper::getUrlEmbed($this->item->partner_id,$this->item->kaltura_video->id,$PartnerInfo->defaultPlayer); ?>
 		<hr>
 		<?php if($show_embed):?>
